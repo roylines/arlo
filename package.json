@@ -1,0 +1,27 @@
+{
+  "name": "arlo",
+  "version": "0.0.1",
+  "description": "modern, promise based library for interfacing with Arlo cameras",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roylines/arlo.git"
+  },
+  "keywords": [
+    "arlo",
+    "iot",
+    "async",
+    "await",
+    "promise",
+    "camera"
+  ],
+  "author": "Roy Lines <roy@roylines.co.uk> (https://github.com/roylines)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roylines/arlo/issues"
+  },
+  "homepage": "https://github.com/roylines/arlo#readme"
+}
