@@ -10,11 +10,11 @@ describe('arlo', () => {
   
   before(async () => {
     await arlo.login(auth);
-  });
+  })
 
   after(async() => {
     await arlo.logout();
-  });
+  })
 
   it('can set mode', async () => {
     let active = await arlo.modes.active();
@@ -35,6 +35,12 @@ describe('arlo', () => {
     const devices = await arlo.devices.get();
     devices.should.be.an('array');
     devices.should.not.be.empty;
+  });
+  
+  it('can get cameras', async () => {
+    const cameras = await arlo.cameras.get();
+    cameras.should.be.an('array');
+    cameras.should.not.be.empty;
   });
   
   it('can get basestation', async () => {
