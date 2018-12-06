@@ -48,4 +48,12 @@ describe('arlo', () => {
     basestation.should.have.property('deviceType');
     basestation.deviceType.should.equal('basestation');
   });
+  
+  it('can get recordings', async () => {
+    let from = new Date();
+    from.setDate(from.getDate() - 1);
+    const recordings = await arlo.recordings.get({ from });
+    recordings.should.be.an('array');
+    recordings.should.not.be.empty;
+  });
 });
