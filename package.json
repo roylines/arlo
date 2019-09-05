@@ -1,6 +1,6 @@
 {
   "name": "arlo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "modern, promise based library for interfacing with Arlo cameras",
   "main": "index.js",
   "scripts": {
@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/roylines/arlo#readme",
   "dependencies": {
-    "dateformat": "^3.0.3",
+    "dateformat": "3.0.3",
     "r2": "2.0.1",
-    "randomstring": "^1.1.5",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "randomstring": "1.1.5",
+    "request": "2.88.0",
+    "request-promise": "4.2.4"
   },
   "devDependencies": {
-    "chai": "4.2.0",
-    "mocha": "5.2.0"
+    "chai": "*",
+    "mocha": "*"
   }
 }
