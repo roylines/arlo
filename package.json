@@ -20,7 +20,7 @@
   "dependencies": {
     "dateformat": "3.0.3",
     "request": "2.88.0",
-    "request-promise": "4.2.4"
+    "request-promise-native": "1.0.8"
   },
   "devDependencies": {
     "jest": "25.1.0"
