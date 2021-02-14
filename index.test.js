@@ -23,6 +23,8 @@ describe("arlo", () => {
     newActive.should.equal("mode1");
   });
 
+  it("can login", async () => {});
+
   it("can get active mode", async () => {
     const mode = await arlo.modes.active();
     expect(mode).toEqual(expect.stringContaining("mode"));
@@ -47,7 +49,6 @@ describe("arlo", () => {
     let from = new Date();
     from.setDate(from.getDate() - 1);
     const recordings = await arlo.recordings.get({ from });
-    console.log("recordings", recordings);
     expect(recordings.length).toBeGreaterThan(0);
   });
 });
