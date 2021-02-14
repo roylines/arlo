@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/roylines/arlo.git"
   },
-  "keywords": ["arlo", "iot", "async", "await", "promise", "camera"],
+  "keywords": [
+    "arlo",
+    "iot",
+    "async",
+    "await",
+    "promise",
+    "camera"
+  ],
   "author": "Roy Lines <roy@roylines.co.uk> (https://github.com/roylines)",
   "license": "MIT",
   "bugs": {
