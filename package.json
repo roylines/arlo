@@ -19,7 +19,7 @@
   "homepage": "https://github.com/roylines/arlo#readme",
   "dependencies": {
     "dateformat": "^4.5.1",
-    "undici": "^3.3.3"
+    "undici": "^5.8.0"
   },
   "devDependencies": {
     "jest": "^26.6.3"
